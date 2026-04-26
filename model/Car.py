@@ -30,17 +30,3 @@ class Car:
             return f"{self._name} : {track}"
 
         return f"{self._name} :"
-
-
-# Before refactoring
-# START_CAR_POSITION = 0
-# TRAVEL_DISTANCE = 1
-#
-#
-# class Car:
-#     def __init__(self, name):
-#         self.name = name
-#         self.position = START_CAR_POSITION
-#
-#     def move(self):
-#         self.position += TRAVEL_DISTANCE
